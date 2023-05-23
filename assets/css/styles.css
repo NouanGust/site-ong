@@ -8,8 +8,74 @@ body {
   height: 100vh;
 }
 body header {
-  height: 400px;
+  background-color: #212529;
 }
-body header h1 span {
+body header nav a, body header nav .nav-link {
+  color: black;
+}
+body main {
+  margin: auto;
+  padding: 15px;
+  padding-top: 60px;
+  background-color: #91A39E;
+}
+body main section {
+  padding: 30px;
+}
+body main h3 {
+  text-align: center;
+}
+body main hr {
+  height: 5px;
+  width: 30%;
+  margin: auto;
+}
+body main .conteudo_principal h1 span {
   color: rgb(207, 111, 14);
+}
+body main .formulario form {
+  display: flex;
+  flex-direction: column;
+}
+body main .formulario form label {
+  font-size: 16px;
+}
+body main .formulario form input {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+body main .formulario form textarea {
+  border-radius: 10px;
+  border: none;
+}
+body main .formulario form .envia {
+  width: 40%;
+  margin: 10px auto;
+}
+body main .galeria {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, auto);
+}
+body main .galeria .img {
+  height: 120px;
+  width: 240px;
+  box-shadow: 1px 1px 1px 0.2px black;
+  border-radius: 12px;
+  overflow: hidden;
+}
+body footer {
+  background-color: #212529;
+}
+body footer .footer-nav {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+body footer .footer-nav p {
+  color: #91A39E;
+}
+body footer .footer-nav p a {
+  color: #91A39E;
 }/*# sourceMappingURL=styles.css.map */
